@@ -4,7 +4,7 @@
         "codigo": 2.1,
         "titulo": "teste de usabilidaede",
         "categoria": "Tipos de testes",
-        "sub-categoria": null,
+        "subCategoria": null,
         "descricao": "O Teste de Usabilidade é frequentemente associado a interfaces bonitas e botões bem posicionados, mas, no contexto de engenharia de software, ele vai muito além da 'casca'. Em essência, ele mede o quão fácil, eficiente e satisfatória é a interação do usuário com o sistema. Quando trazemos isso para o backend, o 'usuário' muda: ele deixa de ser o consumidor final e passa a ser o desenvolvedor que consome sua API ou o próprio sistema que depende da sua lógica.",
         "descricaoCurta": "Teste de usabilidade no backend é sobre reduzir a carga cognitiva de quem vai usar seu código ou sua API.",
         "palavrasChave": [
@@ -50,6 +50,6 @@
             "Teste de Idempotência",
             "Backpressure e Retry"
         ],
-        "relacionados": []
+        "relacionados": ["2.2", "2.3", "7.1", "9.1"]
     }
 ]
