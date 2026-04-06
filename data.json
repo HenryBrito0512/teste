@@ -44,7 +44,12 @@
             "Tolerância a Falhas: O sistema continua operando se algo quebrar (ex: um microserviço cair)?",
             "Recuperabilidade: Após uma falha, quão rápido e quão bem o sistema volta ao estado normal?"
         ],
-        "exemplos": [],
+        "exemplos": [
+            "Teste de Estabilidade (Soak Testing)",
+            "Teste de Failover (Recuperação)",
+            "Teste de Idempotência",
+            "Backpressure e Retry"
+        ],
         "relacionados": []
     }
 ]
