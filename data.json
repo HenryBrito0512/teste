@@ -39,8 +39,8 @@
         "subCategoria": null,
         "descricao": "Enquanto o teste de desempenho foca em \"quão rápido\", o teste de confiabilidade foca em \"por quanto tempo\" essa velocidade e a correção dos dados se mantêm sem falhas. É a transição de um teste de tiro curto para uma maratona, garantindo que o software não se degrade ou \"canse\" após horas ou dias de execução contínua. No contexto de backend, isso significa validar se o servidor consegue lidar com o processamento de grandes volumes de dados sem apresentar vazamentos de memória (memory leaks) ou esgotamento de pools de conexão com o banco de dados. Um sistema pode ser rápido nos primeiros dez minutos, mas se ele não for confiável, o acúmulo de processos mal encerrados acabará por derrubar o serviço. Aqui, testamos a resiliência da infraestrutura e a robustez da lógica server-side contra o desgaste operacional. Em termos práticos, essa verificação assegura que o software atenda a métricas de disponibilidade, como o MTBF (Mean Time Between Failures), garantindo que ele seja previsível. Para o usuário final, a confiabilidade é o que separa um sistema que \"vive caindo\" de um serviço profissional. Para o desenvolvedor, é a segurança de que o código não gerará exceções inesperadas em produção devido ao acúmulo de estados inconsistentes ou falhas na recuperação de recursos críticos.",
         "descricaoCurta": "É a verificação da capacidade de um software manter seu nível de desempenho sob condições estabelecidas por um período determinado.",
-        "palavrasChave": [
-            "Maturidade: Frequência de falhas no sistema.",
+        "palavrasChave": [ 
+            "Maturidade: Frequência de falhas no sistema.",            
             "Tolerância a Falhas: O sistema continua operando se algo quebrar (ex: um microserviço cair)?",
             "Recuperabilidade: Após uma falha, quão rápido e quão bem o sistema volta ao estado normal?"
         ],
