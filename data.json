@@ -8,6 +8,30 @@
         "descricao": "O Teste de Usabilidade é frequentemente associado a interfaces bonitas e botões bem posicionados, mas, no contexto de engenharia de software, ele vai muito além da 'casca'. Em essência, ele mede o quão fácil, eficiente e satisfatória é a interação do usuário com o sistema. Quando trazemos isso para o backend, o 'usuário' muda: ele deixa de ser o consumidor final e passa a ser o desenvolvedor que consome sua API ou o próprio sistema que depende da sua lógica.",
         "descricaocurta":"curta",
         "palavrasChave":[],
-        "exemplo":[],
-        "relacionados": []    
+        "exemplos": [
+            "1. Teste de Tempo até o Primeiro 'Hello World'",
+            "2. Teste de Intuição de Endpoints (API Design)",
+            "3. Auditoria de Mensagens de Erro (O 'Teste do 400')",
+            "4. Teste de Consistência de Contratos",
+            "5. Teste de 'Sandboxing' na Documentação"
+        ],
+        "relacionados": ["5.3", "6.2", "11.2", "3.1", "4.3", "10.2", "10.4"]
+    },
+    {
+        "id":2,
+        "codigo": 2.1,
+        "titulo": "Teste de usabilidade",
+        "cartegoria": "tipos de Testes",
+        "Sub-cartegoria": null,
+        "descricao": "O Teste de Usabilidade é frequentemente associado a interfaces bonitas e botões bem posicionados, mas, no contexto de engenharia de software, ele vai muito além da 'casca'. Em essência, ele mede o quão fácil, eficiente e satisfatória é a interação do usuário com o sistema. Quando trazemos isso para o backend, o 'usuário' muda: ele deixa de ser o consumidor final e passa a ser o desenvolvedor que consome sua API ou o próprio sistema que depende da sua lógica.",
+        "descricaocurta":"curta",
+        "palavrasChave":[],
+        "exemplos": [
+            "1. Teste de Tempo até o Primeiro 'Hello World'",
+            "2. Teste de Intuição de Endpoints (API Design)",
+            "3. Auditoria de Mensagens de Erro (O 'Teste do 400')",
+            "4. Teste de Consistência de Contratos",
+            "5. Teste de 'Sandboxing' na Documentação"
+        ],
+        "relacionados": ["5.3", "6.2", "11.2", "3.1", "4.3", "10.2", "10.4"]
     }]
