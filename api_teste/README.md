@@ -4,8 +4,6 @@ Backend em Node.js + Express para consultar e gerenciar os dados de `data.json`.
 
 ## Como rodar
 
-Na raiz do projeto:
-
 ```bash
 npm install
 npm run dev
@@ -15,13 +13,8 @@ Servidor padrao: `http://localhost:3000`
 
 ## Rotas
 
-### Base
-
 - `GET /` - resumo da API
 - `GET /health` - status do servidor
-
-### Recursos
-
 - `GET /api/testes` - lista todos os registros
 - `GET /api/testes?categoria=Tipos de testes` - filtra por categoria
 - `GET /api/testes?q=usabilidade` - busca textual
@@ -30,7 +23,7 @@ Servidor padrao: `http://localhost:3000`
 - `PUT /api/testes/:id` - atualiza registro
 - `DELETE /api/testes/:id` - remove registro
 
-## Exemplo de payload (POST/PUT)
+## Objeto para POST
 
 ```json
 {
