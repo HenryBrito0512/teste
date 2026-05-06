@@ -1,0 +1,17 @@
+{
+  "name": "ferramentas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "y": "^0.3.2"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
